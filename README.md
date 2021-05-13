@@ -6,6 +6,6 @@ Simply clone this repository and start building and testing these samples with M
 
 Pull requests are welcome.
 
-List of samples:
+**List of samples:**
 - Simple Put/Get/Remove
 - SSL Client
