@@ -1,0 +1,11 @@
+# Start locator 1
+start locator --name=locator1 --port=40001 --security-properties-file="security.properties"
+
+# Start server 1
+start server --name=server1 --server-port=40002 --security-properties-file="security.properties"
+
+# Start server 2
+start server --name=server2 --server-port=40003 --security-properties-file="security.properties"
+
+#create region
+create region --name="Customer" --type=PARTITION
