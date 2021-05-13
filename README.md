@@ -5,3 +5,7 @@ This repository contains GemFire .NET Native Client Samples with Visual Studio 2
 Simply clone this repository and start building and testing these samples with Microsoft Visual Studio. 
 
 Pull requests are welcome.
+
+List of samples:
+- Simple Put/Get/Remove
+- SSL Client
