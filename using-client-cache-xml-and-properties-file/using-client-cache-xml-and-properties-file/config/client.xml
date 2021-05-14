@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-cache
+    xmlns="http://geode.apache.org/schema/cpp-cache"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://geode.apache.org/schema/cpp-cache
+      http://geode.apache.org/schema/cpp-cache/cpp-cache-1.0.xsd"
+    version="1.0">
+    <pool name="clientPool" ping-interval="10s" subscription-enabled="false" retry-attempts="3" read-timeout="60s" socket-buffer-size="10485760">
+  		<locator port="10334" host="localhost" />
+    </pool>
+</client-cache>
