@@ -10,3 +10,4 @@ Pull requests are welcome.
 - Simple Put/Get/Remove
 - SSL Client
 - Using Client Cache XML and properties file
+- SessionStateProvider with ASP.NET WebAPI/MVC
