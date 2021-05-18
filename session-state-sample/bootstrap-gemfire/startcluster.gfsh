@@ -1,0 +1,23 @@
+# Start locator 1
+start locator --name=locator1 --port=40000
+
+# Start locator 2
+start locator --name=locator2 --port=40001
+
+# Start locator 3
+#start locator --name=locator3 --port=40002
+
+# Start server 1
+start server --name=server1 --server-port=40003
+
+# Start server 2
+start server --name=server2 --server-port=40004
+
+# Start server 3
+start server --name=server3 --server-port=40005
+
+#deploy JAR
+deploy --jar=C:\pivotal-gemfire-native-10.2.0-build.141-Windows-64bit\pivotal-gemfire-native\lib\SessionStateStoreFunctions.jar
+
+#create region
+create region --name="sessionStateRegion" --type=PARTITION
