@@ -8,6 +8,6 @@ Pull requests are welcome.
 
 **List of samples:**
 - [Simple Put/Get/Remove](https://github.com/dkhopade/gemfire-dotnet-nc/tree/master/simple-put-get-remove)
-- SSL Client
-- Using Client Cache XML and properties file
-- SessionStateProvider with ASP.NET WebAPI/MVC
+- [SSL Client](https://github.com/dkhopade/gemfire-dotnet-nc/tree/master/ssl-client)
+- [Using Client Cache XML and properties file](https://github.com/dkhopade/gemfire-dotnet-nc/tree/master/using-client-cache-xml-and-properties-file)
+- [SessionStateProvider with ASP.NET WebAPI/MVC](https://github.com/dkhopade/gemfire-dotnet-nc/tree/master/session-state-sample)
