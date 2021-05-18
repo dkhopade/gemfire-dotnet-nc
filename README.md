@@ -7,7 +7,7 @@ Simply clone this repository and start building and testing these samples with M
 Pull requests are welcome.
 
 **List of samples:**
-- [a Simple Put/Get/Remove](https://github.com/dkhopade/gemfire-dotnet-nc/tree/master/simple-put-get-remove)
+- [Simple Put/Get/Remove](https://github.com/dkhopade/gemfire-dotnet-nc/tree/master/simple-put-get-remove)
 - SSL Client
 - Using Client Cache XML and properties file
 - SessionStateProvider with ASP.NET WebAPI/MVC
